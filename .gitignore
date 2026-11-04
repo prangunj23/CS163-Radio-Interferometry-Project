@@ -1,0 +1,28 @@
+# Data stays in the shared Google Drive folder
+*.npy
+*.npz
+*.uvfits
+*.calfits
+*.ms
+*.pt
+*.pth
+*.ckpt
+
+# Generated plots (keep final figures in figures/)
+*.png
+*.jpg
+*.jpeg
+*.pdf
+!figures/**
+
+# Python and notebook files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Local settings and secrets
+.DS_Store
+.env
+.vscode/
