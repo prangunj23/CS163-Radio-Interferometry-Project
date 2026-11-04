@@ -14,6 +14,4 @@ Data is stored in the shared Google Drive folder, not in this repo. Run the note
 
 If a shared folder doesn't appear in `MyDrive/CS 163/`, add a shortcut to it there.
 
-`generate_data_for_cs163.ipynb` writes to a local path, so update that path before running it. It also needs the `calico` package.
-
 Don't commit data files or model checkpoints. Put final figures in `figures/`.
